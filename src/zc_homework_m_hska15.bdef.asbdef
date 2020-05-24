@@ -1,0 +1,12 @@
+projection;
+
+define behavior for ZC_HOMEWORK_M_HSKA15 alias LanguageProcessor
+use etag
+{
+  use create;
+  use update;
+  use delete;
+
+  use action makeFavorite;
+  use action unFavorite;
+}

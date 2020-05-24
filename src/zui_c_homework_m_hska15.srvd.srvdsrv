@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition for pl'
+define service ZUI_C_HOMEWORK_M_HSKA15 {
+  expose ZC_HOMEWORK_M_HSKA15 as LanguageProcessor;
+}
